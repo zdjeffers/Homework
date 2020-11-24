@@ -4,10 +4,31 @@
     margin: 0;
 }
 
+/* Universal Styles*/
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Header & Navigation Buttons Style */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,38 +60,40 @@ header nav a {
     text-decoration: none;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Main Image Style */
 figure img {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
-
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main Section Style */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+    margin-right: 25px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Aside Style */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,66 +121,7 @@ summary img {
     max-width: 150px;
 }
 
-#search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#search-engine-optimization img {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-    float: right;
-    margin-right: 25px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Style */
 footer {
     padding: 30px;
     clear: both;
