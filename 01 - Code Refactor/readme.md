@@ -7,7 +7,7 @@ Hello and welcome to my first coding project! The objective of this task was to 
 ![Horiseon](https://github.com/zdjeffers/Homework/blob/main/01%20-%20Code%20Refactor/Assets/01-html-css-git-homework-demo.png?raw=true)
 
 ### Here is the link to the deployed site:
-[Horiseon | Search Engine Optimization](https://zdjeffers.github.io/Homework/01%20-%20Code%20Refactor/index.html)
+[Horiseon | Search Engine Optimization](https://zdjeffers.github.io/Homework/01 - Code Refactor/index.html)
 
 ### Final Thoughts:
 Thank you for taking the time to look at my work. If you'd like to see any of my other projects, please feel free to drop by [my GitHub Page!](https://github.com/zdjeffers)
